@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic SEO -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AartiSEO Blog – SEO, Digital Marketing Tips, Case Studies & Guides</title>
+
+  <meta name="description" content="Read expert SEO tips, digital marketing guides, Google ranking strategies, social media insights, and online growth hacks on the AartiSEO Blog.">
+  <meta name="author" content="Aarti – SEO Specialist & Consultant">
+
+  <!-- Keywords -->
+  <meta name="keywords" content="SEO blog, digital marketing blog, AartiSEO, Google ranking tips, social media marketing guides, freelance SEO insights">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://aartiseo.pages.dev/blog.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="AartiSEO Blog – SEO & Digital Marketing Insights">
+  <meta property="og:description" content="Latest articles on SEO, digital marketing, Google ranking, keyword tips, social media growth, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aartiseo.pages.dev/blog.html">
+  <meta property="og:image" content="https://aartiseo.pages.dev/img/blog-cover.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AartiSEO Blog – SEO & Digital Marketing Guides">
+  <meta name="twitter:description" content="Expert blog posts about SEO, social media, keywords, ranking tips & online growth strategies.">
+  <meta name="twitter:image" content="https://aartiseo.pages.dev/img/blog-cover.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- Global Header/Footer CSS -->
+  <link rel="stylesheet" href="css/headerfooter.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Blog CSS -->
+  <link rel="stylesheet" href="css/blog.css">
+
+  <!-- JS -->
+  <script src="js/headerfooter.js" defer></script>
+  <script src="js/blog.js" defer></script>
+
+  <!-- Blog Schema Markup (SEO Boost) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "url": "https://aartiseo.pages.dev/blog.html",
+    "name": "AartiSEO Blog",
+    "description": "SEO and digital marketing blog with tips, tutorials, ranking strategies, social media hacks, and guides to grow businesses online.",
+    "publisher": {
+      "@type": "Person",
+      "name": "Aarti – SEO Specialist",
+      "url": "https://aartiseo.pages.dev",
+      "image": "https://aartiseo.pages.dev/img/aarti-profile.jpg"
+    },
+    "image": "https://aartiseo.pages.dev/img/blog-cover.jpg",
+    "inLanguage": "en"
+  }
+  </script>
+
+  <style>
+    /* Smooth fade animation */
+    .fade-in {
+      animation: fadeIn 0.7s ease-in-out forwards;
+      opacity: 0;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Global Header -->
+  <div id="header"></div>
+
+  <!-- =====================
+       Blog Content
+  ====================== -->
+  <main class="bg-container fade-in">
+
+    <h1 class="bg-title">AartiSEO Blog</h1>
+    <p class="bg-subtitle">SEO insights, digital marketing tips, ranking strategies & expert guides.</p>
+
+    <!-- Blog Layout -->
+    <div class="bg-layout">
+
+      <!-- Blog Posts Section -->
+      <section id="bg-posts" class="bg-grid fade-in">
+        <!-- Posts injected from blog.js -->
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="bg-sidebar fade-in">
+
+        <!-- Search -->
+        <div class="bg-widget">
+          <h3><i class="fa fa-search"></i> Search</h3>
+          <input type="text" id="bg-search" placeholder="Search posts...">
+        </div>
+
+        <!-- Categories -->
+        <div class="bg-widget">
+          <h3><i class="fa fa-folder-open"></i> Categories</h3>
+          <ul id="bg-categories"></ul>
+        </div>
+
+        <!-- Tags -->
+        <div class="bg-widget">
+          <h3><i class="fa fa-tags"></i> Tags</h3>
+          <div id="bg-tags"></div>
+        </div>
+
+        <!-- Recent Posts -->
+        <div class="bg-widget">
+          <h3><i class="fa fa-clock"></i> Recent Posts</h3>
+          <ul id="bg-recent"></ul>
+        </div>
+
+      </aside>
+
+    </div>
+
+    <!-- Pagination -->
+    <div class="bg-pagination" id="bg-pagination"></div>
+
+  </main>
+
+  <!-- Global Footer -->
+  <div id="footer"></div>
+
+</body>
+</html>

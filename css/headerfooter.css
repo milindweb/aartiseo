@@ -355,6 +355,18 @@
   color: #94a3b8;
 }
 
+/* Footer Bottom link glow effect */
+.hf-footer-link-res {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.hf-footer-link-res:hover {
+    color: #a8e4ff; /* soft sky-blue */
+    text-shadow: 0 0 8px rgba(168, 228, 255, 0.9); /* gentle glow */
+}
+
 /* Responsive Footer */
 @media (max-width: 768px) {
   .hf-footer-grid {
